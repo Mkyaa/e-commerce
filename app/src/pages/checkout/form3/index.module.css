@@ -1,0 +1,19 @@
+.congratOrderWrapper{
+    @apply w-full py-24 px-4 bg-white
+}
+
+.congratOrderWrapper div{
+    @apply max-w-6xl mx-auto flex flex-col items-center
+}
+
+.congratOrderWrapper div h1{
+    @apply text-4xl font-medium
+}
+
+.congratOrderWrapper div p{
+    @apply text-lg text-center
+}
+
+.congratOrderWrapper div a {
+    @apply text-sm font-medium text-orange-500 mt-5
+}

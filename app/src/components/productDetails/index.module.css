@@ -1,0 +1,143 @@
+.productDetailContainer {
+    @apply w-full bg-white
+}
+
+.productDetailContent {
+    @apply max-w-6xl mx-auto py-20 flex flex-col
+}
+
+.topBox {
+    @apply w-full flex flex-wrap px-2
+}
+
+.bottomBox {
+    @apply relative mt-32 border-t-2 border-solid
+}
+
+.topLeftSide {
+    @apply w-full md:w-1/2 flex h-[500px] gap-4 lg:gap-10
+}
+
+.imageList {
+    @apply w-32 flex flex-col overflow-hidden
+}
+
+.imageBox {
+    @apply w-full cursor-pointer mb-[6px]
+}
+
+.imageBox img {
+    @apply h-[120px] border border-solid object-contain
+}
+
+.showImgBox {
+    @apply w-[420px] h-[500px] border border-solid flex
+}
+
+.showImgBox img {
+    @apply object-contain
+}
+
+.topRightSide {
+    @apply w-full mt-4 md:mt-0 md:w-1/2 pl-5
+}
+
+.productTitle {
+    @apply text-2xl font-bold uppercase
+}
+
+.productBrand {
+    @apply text-sm text-gray-500 my-2
+}
+
+.productRateBox{
+    @apply flex text-[10px] items-center
+}
+
+.productRateBox p {
+    @apply ml-2 text-gray-600
+}
+
+.productNoRate{
+    @apply flex
+}
+
+.productNoRate p{
+    @apply text-center
+}
+
+.productPriceBox{
+    @apply flex mt-5 items-center
+}
+
+.productPriceBox h1{
+    @apply text-2xl font-bold text-red-600
+}
+
+.productPriceBox h3{
+    @apply text-sm text-gray-500 line-through ml-4
+}
+
+.productDesc {
+    @apply text-sm text-gray-500 mt-5 my-3
+}
+
+.productInteractBox {
+    @apply flex flex-wrap items-center
+}
+
+.productInteractBox p {
+    @apply text-sm font-medium mr-4
+}
+
+.productQuantityBox{
+    @apply flex border border-solid rounded-full h-12 items-center px-4
+}
+
+.productQuantityBox span{
+    @apply text-3xl cursor-pointer
+}
+
+.productQuantityBox input{
+    @apply w-[100px] md:w-[full] lg:w-[100px] h-full outline-none text-center mt-0 border-none
+}
+
+.productAddBtn {
+    @apply bg-red-600 text-white h-12 px-5 ml-2 md:ml-20 lg:mt-0 lg:ml-2 rounded-full
+}
+
+.productAddFav {
+    @apply  hover:text-red-600 ml-4 text-2xl cursor-pointer
+}
+
+.productAvbBox{
+    @apply flex mt-6 
+}
+
+.productAvbBox p{
+    @apply text-sm font-semibold tracking-wide
+}
+
+.productAvbBox span{
+    @apply text-xs ml-3 text-gray-600 flex items-center
+}
+
+.bottomTitleBox{
+    @apply w-full absolute -top-9 flex  text-xl font-semibold text-gray-600 justify-center
+}
+
+.bottomTitleBox h3{
+    @apply bg-white px-12 py-5 cursor-pointer
+}
+
+.bottomExpBox{
+    @apply mt-10 w-full
+}
+
+.bottomExpBox h3{
+    @apply font-semibold mb-6
+}
+
+.bottomExpBox p{
+    @apply text-sm text-gray-700
+}

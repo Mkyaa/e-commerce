@@ -1,0 +1,67 @@
+.checkOutContent{
+    @apply max-w-6xl mx-auto
+}
+
+.table {
+    @apply w-full
+}
+
+.table thead tr th {
+    @apply text-left
+}
+
+.checkOutCheck {
+    @apply mt-10 flex flex-wrap gap-10 w-full justify-between
+}
+
+.checkLeft{
+    @apply w-full sm:w-[40%]
+}
+
+.backShop {
+    @apply bg-gray-100 px-6 py-4 cursor-pointer text-sm font-semibold
+}
+
+.discountBox {
+    @apply mt-20
+}
+
+.discountBox>h1 {
+    @apply font-semibold text-base mb-2
+}
+
+.discountInputBox {
+    @apply w-full min-w-[280px] relative
+}
+
+.discountInputBox input {
+    @apply w-full h-12 text-sm lg:text-base border border-solid border-gray-300 rounded-full px-3 outline-none
+}
+
+.discountInputBox button {
+    @apply w-1/3 h-10 bg-red-600 text-sm font-semibold text-white rounded-full absolute top-3 right-1
+}
+
+.checkRight {
+    @apply w-full sm:w-[40%] mt-10 sm:mt-0 bg-gray-200 p-10 rounded-md
+}
+
+.checkRight>h1 {
+    @apply font-semibold text-base mb-4
+}
+
+.checkGroup{
+    @apply flex justify-between items-center mb-2
+}
+
+.checkGroup span {
+    @apply text-sm
+}
+
+.checkGroup p {
+    @apply text-sm font-semibold text-red-600
+}
+
+.nextStep{
+    @apply w-full h-12 bg-red-600 text-white mt-8 rounded-full
+}

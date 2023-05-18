@@ -1,0 +1,7 @@
+.imgListBox {
+    @apply w-[69.5px] h-16 cursor-pointer m-0 p-0
+}
+
+.imgListBox img {
+    @apply w-full h-full object-cover bg-center border border-solid 
+}

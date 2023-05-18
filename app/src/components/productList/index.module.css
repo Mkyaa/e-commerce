@@ -1,0 +1,30 @@
+.newProductCard{
+    @apply w-[280px] overflow-hidden shadow-md hover:shadow-orange-100 hover:shadow-xl cursor-pointer pb-8 
+}
+
+.imagebox{
+    @apply w-full h-[425px] border border-solid 
+}
+
+.imageBoxImg{
+    @apply w-full h-[360px] object-contain
+}
+
+.imageListBox{
+    @apply w-[500px] h-16 flex
+}
+.cardTitle{
+    @apply text-sm mt-3 flex justify-center items-center h-10
+}
+.cardExp{
+    @apply text-xs mt-2
+}
+.cardPrice{
+    @apply text-base font-semibold text-center mt-3 text-gray-600
+}
+.fontBox{
+    @apply w-full mt-4 flex justify-center items-center gap-4
+}
+.fontBoxSvg{
+    @apply border border-solid border-gray-300 rounded-full p-3 text-sm cursor-pointer hover:rotate-[360deg] hover:bg-red-600 hover:text-white transition-all duration-300
+}

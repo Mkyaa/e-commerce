@@ -1,0 +1,65 @@
+.contactContainer {
+    @apply py-24 w-full flex flex-wrap justify-center bg-white px-4
+}
+
+.contactContent {
+    @apply w-full h-full md:max-h-[740px] max-w-6xl flex flex-wrap justify-between gap-10
+}
+
+.leftContact {
+    @apply flex flex-col w-full md:w-[45%]
+}
+
+
+.contactTitle {
+    @apply text-xl font-medium relative pb-1 mb-3 max-w-max
+}
+
+.contactTitle i {
+    @apply absolute w-[50%] h-[3px] bg-orange-500 bottom-0 left-0
+}
+
+.contactDetailsBox {
+    @apply flex flex-col my-4 gap-4
+}
+
+.adressDetails {
+    @apply flex gap-3 font-medium
+}
+
+.adressDetails svg {
+    @apply text-orange-700
+}
+
+.adressDetail {
+    @apply text-gray-700 text-sm
+}
+
+.sendMsgBox {
+    @apply mt-10
+}
+
+.sendMsgBox>h1 {
+    @apply text-lg
+}
+
+.form {
+    @apply flex flex-col gap-4 mt-5
+}
+
+.form input,
+textarea {
+    @apply border border-solid outline-none px-4 py-2 rounded-md
+}
+
+.form button {
+    @apply bg-red-600 text-white h-12
+}
+
+.rightContact {
+    @apply w-full min-h-[500px] md:w-[45%]
+}
+
+.rightContact iframe {
+    @apply w-full h-full
+}

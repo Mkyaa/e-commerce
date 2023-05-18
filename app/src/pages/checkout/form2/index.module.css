@@ -1,0 +1,97 @@
+.approveFormWrapper{
+    @apply w-full
+}
+
+.formContainer{
+    @apply max-w-6xl w-full mx-auto flex flex-wrap justify-between gap-5
+}
+
+.form {
+    @apply w-full flex flex-wrap justify-between
+}
+
+.leftApprove{
+    @apply w-full md:w-[48%] lg:w-2/3 flex flex-col gap-4
+}
+
+.leftApprove>h1{
+    @apply w-full border-b border-solid font-semibold text-lg pb-5
+}
+
+.formGroupTop {
+    @apply w-full flex flex-wrap justify-between pt-2
+}
+.formGroup {
+    @apply w-full
+}
+.formGroupBottom {
+    @apply w-full flex flex-wrap justify-between
+}
+
+.formGroupTop div, .formGroupBottom div{
+    @apply w-full sm:w-[45%]
+}
+
+label {
+    @apply flex font-medium text-sm
+}
+
+label p{
+    @apply text-red-600 ml-1
+}
+
+input, textarea {
+    @apply mt-2 w-full h-12 border border-solid border-gray-300 rounded-sm py-1 px-3 outline-none
+}
+
+small {
+    @apply text-red-600
+}
+
+.rightApprove{
+    @apply w-full md:w-[48%] lg:w-[30%] bg-gray-100 px-6 py-8 h-max
+}
+
+.rightApprove>h1{
+    @apply w-full border-b border-solid border-gray-300 font-semibold text-lg pb-5 
+}
+
+.rightApproveTitleBox{
+    @apply w-full flex justify-between mt-4 text-gray-800
+}
+
+.rightApproveTitleBox {
+    @apply font-semibold
+}
+
+.rightApprovePriceBox{
+    @apply w-full flex flex-col mt-4 text-gray-800
+}
+
+.priceBox{
+    @apply w-full flex justify-between mb-2 items-center
+}
+
+.priceBox span{
+    @apply text-sm
+}
+
+.priceBox p{
+    @apply font-semibold
+}
+
+.rightApproveTotalBox {
+    @apply border-t border-b border-solid border-gray-300 mt-10 pb-8
+}
+
+.rightApproveTotalBox div{
+    @apply w-full flex justify-between mt-4 text-gray-800
+}
+
+.rightApproveTotalBox div h1{
+    @apply font-semibold
+}
+
+.nextBtn{
+    @apply w-full h-12 bg-red-600 text-white mt-10 rounded-full
+}

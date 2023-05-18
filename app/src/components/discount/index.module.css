@@ -1,0 +1,37 @@
+.discountBox {
+    @apply w-full h-auto py-12 bg-white flex flex-col justify-center items-center
+}
+.discountContent{
+    @apply flex flex-wrap max-w-screen-xl justify-center items-center
+}
+.discountImage{
+    @apply w-full sm:w-[540px] md:w-[720px] lg:w-[480px] xl:w-[585px] object-cover
+}
+.discountRightBox{
+    @apply w-full sm:w-[540px] md:w-[720px] lg:w-[480px] xl:w-[585px] flex flex-col justify-center items-center bg-gray-200
+    h-[360px] md:h-[480px] lg:h-[320px] xl:h-[390px]
+}
+.discountRightBoxTop {
+    @apply mb-10 text-center flex flex-col gap-3 relative
+}
+.discountRightBoxTop p{
+    @apply text-sm z-[1]
+}
+.discountRightBoxTop h1{
+    @apply text-red-600 font-cookie text-5xl z-[1]
+}
+.discountRightBoxTop i{
+    @apply w-44 h-44 -top-8 left-4 bg-white rounded-full absolute
+}
+.countBox{
+    @apply flex items-end
+}
+.countBox h3{
+    @apply font-semibold text-xl sm:text-3xl text-gray-900
+}
+.countBox p{
+    @apply text-gray-500 text-sm mt-2 mr-3
+}
+.discountRightBox button{
+    @apply border-b border-solid border-orange-500 text-sm font-semibold mt-4
+}

@@ -1,0 +1,12 @@
+.bottomBanner{
+    @apply w-full h-[500px] bg-transparent gap-4 flex flex-col justify-center items-center
+}
+.bottomBanner h3{
+    @apply text-lg text-red-500 font-medium
+}
+.bottomBanner h1{
+    @apply text-6xl sm:text-8xl font-cookie text-center
+}
+.bottomBannerLink{
+    @apply pb-1 border-b-2 border-solid border-orange-500 text-sm font-semibold
+}

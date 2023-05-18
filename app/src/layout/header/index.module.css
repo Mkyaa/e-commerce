@@ -1,0 +1,82 @@
+.headerWrapper {
+    @apply w-full h-20 sm:h-24 bg-white flex items-center shadow-xl fixed z-10
+}
+.headerLogo {
+    @apply w-48 text-6xl font-cookie text-center cursor-pointer
+}
+
+.menuBox {
+    @apply invisible w-full lg:visible flex
+}
+
+.navbar {
+    @apply w-0 sm:flex-1
+}
+
+.navbar ul{
+    @apply flex lg:gap-10 xl:gap-16 justify-center font-medium 
+}
+
+.headerRightBox{
+    @apply invisible w-0 lg:w-auto lg:visible flex gap-3 text-sm text-gray-500 mr-5
+}
+
+.loginBox{
+    @apply flex text-xs gap-3 mr-5 items-center
+}
+
+.logout{
+    @apply cursor-pointer hover:text-gray-600
+}
+
+.formContainer{
+    @apply text-base flex gap-3
+}
+
+.favoriteBox{
+    @apply relative cursor-pointer
+}
+
+.favoriteBox p{
+    @apply w-[17px] h-[17px] absolute text-xs flex items-center justify-center p-1 bg-black text-white rounded-full top-[-6px] right-[-7px]
+}
+
+.cartBox{
+    @apply relative cursor-pointer
+}
+
+.cartBox p{
+    @apply w-[17px] h-[17px] absolute text-xs flex items-center justify-center p-1 bg-black text-white rounded-full top-[-6px] right-[-7px]
+}
+
+.burgerIcon {
+    @apply lg:invisible text-3xl mr-4 cursor-pointer
+}
+
+.burgerMenu {
+    @apply w-72 sm:w-96 lg:invisible absolute  transition-all ease-in-out duration-500  flex flex-col top-6 sm:top-8 right-2 sm:right-4 bg-white py-14 
+}
+
+.burgerMenu>svg{
+    @apply absolute right-3 top-3 text-3xl text-gray-700 cursor-pointer
+}
+
+.burgerNav {
+    @apply text-center
+}
+
+.burgerNav ul{
+    @apply flex flex-col gap-4
+}
+
+.burgerNavBottom {
+    @apply flex flex-col gap-3 text-sm text-gray-500 items-center
+}
+
+.burgerLogin {
+    @apply flex flex-col text-sm mt-4 text-center gap-4
+}
+
+.burgerFontBox{
+    @apply flex gap-6 my-3 text-xl
+}

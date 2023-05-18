@@ -1,0 +1,43 @@
+.cartListBox{
+    @apply border-b border-solid
+}
+
+.cartListLeft{
+    @apply flex items-center py-10 flex-wrap
+}
+
+.cartListLeft img{
+    @apply w-20 h-20 object-cover
+}
+
+.cartListExp{
+    @apply flex flex-col ml-5
+}
+
+.cartListExp span{
+    @apply font-semibold
+}
+
+.cartListExp p{
+    @apply text-xs mt-1
+}
+
+.cartListPrice{
+    @apply text-red-600 font-medium
+}
+
+.cartListQuantityBox{
+    @apply flex items-center
+}
+
+.cartListQuantityBox p{
+    @apply mx-2
+}
+
+.cartListQuantityBox button{
+    @apply w-6 h-6 border border-solid border-gray-300 rounded-full
+}
+
+.cartListRemove{
+    @apply w-10 h-10 font-semibold text-lg pb-1 bg-gray-100 rounded-full
+}

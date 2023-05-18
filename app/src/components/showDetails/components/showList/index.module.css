@@ -1,0 +1,39 @@
+.showDetailBox {
+    @apply flex h-40 items-center
+}
+
+.showImgBox{
+    @apply w-24 h-24 lg:w-32 lg:h-32 border border-solid
+}
+
+.showImgBox img{
+    @apply w-full h-full object-contain
+}
+
+.showExpBox{
+    @apply ml-2 sm:ml-8 flex flex-col gap-4 flex-1 text-sm lg:text-base
+}
+
+.showExpBox a{
+    @apply text-red-600 font-semibold
+}
+
+.showExpBox p{
+    @apply text-sm text-gray-700 flex
+}
+
+.showQuantityBox {
+    @apply flex mr-4 items-center gap-2 text-sm md:text-base
+}
+
+.showQuantityBox svg{
+    @apply hover:text-red-600 cursor-pointer
+}
+
+.showFontsBox{
+    @apply flex gap-2 text-sm lg:text-lg text-gray-800
+}
+
+.showFontsBox svg{
+    @apply hover:text-red-600 cursor-pointer
+}

@@ -1,0 +1,78 @@
+.favoritesCard {
+    @apply w-[300px] sm:w-[400px] md:w-[500px] lg:w-[600px] bg-white h-screen absolute top-0 right-0 z-10 shadow-2xl
+}
+
+.favoritesContent {
+    @apply w-full h-[80%] overflow-y-scroll overflow-x-hidden
+}
+
+.favoritesContent::-webkit-scrollbar {
+    @apply w-2
+}
+
+.favoritesContent::-webkit-scrollbar-thumb {
+    @apply bg-red-400 rounded-lg
+}
+
+.favoritesContent::-webkit-scrollbar-thumb:hover {
+    @apply bg-red-300
+}
+
+.closeButton {
+    @apply text-4xl border-solid px-4 py-3 rounded-xl absolute -left-8 top-20 bg-white cursor-pointer
+}
+
+.favoriteTitle {
+    @apply text-2xl font-medium pt-8 pb-2 relative text-center border-b-2 border-gray-200 border-solid border-gray-200
+}
+
+.favContainer {
+    @apply w-full flex flex-col gap-10 px-2 lg:px-8 py-5
+}
+
+.favContainer p{
+    @apply text-center
+}
+
+.favCard {
+    @apply w-full flex border-b border-solid pb-2
+}
+
+.favImage {
+    @apply w-24 h-24 object-cover rounded-lg
+}
+
+.favText {
+    @apply flex-1 flex flex-col justify-center gap-2 px-4
+}
+
+.favText h1 {
+    @apply text-base font-medium text-orange-500
+}
+
+.favText p {
+    @apply text-sm text-gray-500
+}
+.quantity{
+    @apply h-24 flex gap-2 items-center text-xs
+}
+
+.quantity svg{
+    @apply cursor-pointer text-gray-700 hover:text-red-500
+}
+
+.fontContent {
+    @apply w-20 h-24 flex justify-center items-center gap-2 text-gray-500
+}
+
+.fontContent svg {
+    @apply hover:text-red-500 cursor-pointer
+}
+
+.favoritesFooter {
+    @apply fixed bottom-0 bg-white w-[300px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-24 flex flex-col justify-center items-center border-t-2 border-solid border-gray-200
+}
+
+.favoritesFooter p{
+    @apply w-full text-sm cursor-pointer h-20 flex justify-center items-center
+}

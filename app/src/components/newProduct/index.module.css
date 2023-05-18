@@ -1,0 +1,27 @@
+.newProductContainer{
+    @apply w-full py-20 bg-white px-2
+}
+.newProBox{
+    @apply max-w-screen-xl mx-auto flex flex-col bg-white my-8 
+}
+.navBox{
+    @apply flex flex-wrap justify-between mb-10
+}
+.navTitle{
+    @apply text-2xl font-semibold relative pb-1 mb-3
+}   
+.navTitleBottom{
+    @apply absolute w-[50%] h-[3px] bg-orange-500 bottom-0 left-0
+}
+.ulBox{
+    @apply flex flex-wrap gap-4 lg:gap-10 items-center 
+}
+.ulBox li{
+    @apply cursor-pointer mb-3
+}
+.activeFilter{
+    @apply  border-b-2 border-orange-500
+}
+.filteredBox{
+    @apply flex flex-wrap gap-12 justify-evenly
+}
